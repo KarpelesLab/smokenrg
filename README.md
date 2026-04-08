@@ -14,7 +14,7 @@ I added a makefile, type make, or compile the C file directly. It works.
 
 # How to use the resulting raw files?
 
-Raw files are raw audio files. Convert to the format of your liking (wav, flac, mp3, etc) with ffmpeg:
+Raw files are raw audio files. Or not. You'll know soon enough. Convert to the format of your liking (wav, flac, mp3, etc) with ffmpeg:
 
     ffmpeg -f s16le -vn -ar 44100 -ac 2 -i 001.raw 001.wav
 
